@@ -1,0 +1,92 @@
+body {
+  margin-top: 0;
+  padding-top: 0; }
+
+#mottemuseum {
+  position: relative; }
+  #mottemuseum #content {
+    margin-top: 200px; }
+  #mottemuseum #header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -50%;
+    background: white;
+    border-bottom: 2px solid #cccccc;
+    background: #faf6df;
+    width: 100%;
+    z-index: 100000; }
+    #mottemuseum #header #logo {
+      display: block;
+      height: 149px;
+      width: 1155px;
+      background: transparent url(/images/logo.png) no-repeat top right;
+      margin-left: -1000px; }
+    #mottemuseum #header #navigation {
+      float: right;
+      margin-top: 70px; }
+      #mottemuseum #header #navigation ul li {
+        display: inline-block;
+        list-style: none;
+        font-size: 17px;
+        border-right: 1px solid #cccccc;
+        padding-right: 15px; }
+        #mottemuseum #header #navigation ul li.last {
+          border-right: none; }
+        #mottemuseum #header #navigation ul li a {
+          color: #333333;
+          text-decoration: none; }
+          #mottemuseum #header #navigation ul li a:hover {
+            text-decoration: underline; }
+          #mottemuseum #header #navigation ul li a.facebook {
+            color: #3b5998;
+            text-decoration: underline;
+            background-image: url(/images/facebook-icon.jpg);
+            padding-right: 18px; }
+
+#mottemuseum_index .float_right {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  padding: 2px; }
+#mottemuseum_index .clearer {
+  clear: both; }
+#mottemuseum_index .section {
+  margin-top: 190px;
+  clear: both; }
+  #mottemuseum_index .section.top {
+    margin-top: 90px; }
+#mottemuseum_index .pricing_table {
+  background: #dbddc4;
+  text-transform: uppercase;
+  font-size: 90%;
+  color: #333333;
+  border: 1px solid #ebead1;
+  margin-bottom: 0;
+  padding-bottom: 0; }
+  #mottemuseum_index .pricing_table td {
+    border: 1px solid white;
+    text-align: left; }
+  #mottemuseum_index .pricing_table th {
+    width: 33%;
+    border: 1px solid white;
+    text-align: left;
+    font-weight: normal; }
+    #mottemuseum_index .pricing_table th.top_header {
+      background: #a3b49c;
+      text-align: center;
+      color: white;
+      border: none;
+      font-weight: bold;
+      font-size: 110%; }
+#mottemuseum_index .subject_to_change {
+  font-size: 80%; }
+#mottemuseum_index .futher_contact_info {
+  font-style: italic; }
+#mottemuseum_index .farmers_market_days_and_times {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 220%;
+  color: #526247;
+  line-height: 140%; }

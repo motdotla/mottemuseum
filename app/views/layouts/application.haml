@@ -1,0 +1,55 @@
+!!!
+%html{:dir => "ltr", :lang => "en-US", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %title Motte Historical Museum
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-type"}/
+    %link{:href => "/images/favicon.ico", :rel => "shortcut icon"}/
+    %link{:href => "/stylesheets/compiled/style.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
+    %script{:src => "/javascripts/plugins/jquery.js", :type => "text/javascript"}
+    %script{:src => "/javascripts/plugins/jquery.flexslider-min.js", :type => "text/javascript"}
+    %script{:src => "/javascripts/compiled/application.js", :type => "text/javascript"}
+    /[if IE 6]
+      <script src="/javascripts/plugins/DD_belatedPNG_0.0.8a-min.js"></script>
+      <link rel="stylesheet" href="/stylesheets/compiled/ie6.css" type="text/css" media="all" />
+  %body
+    .shell
+      #header
+        %h1#logo.left
+          %a.notext{:href => "/"} Motte Historical Museum
+        #donate
+          %a.left{:href => "/donate"} Donate
+        #navigation.left
+          %ul
+            %li
+              %a{:href => "/"} Home
+            %li
+              %a{:href => "/about"} About
+            %li
+              %a{:href => "/carcollection"} Car Collection
+            %li
+              %a{:href => "/visit"} Visit
+            %li
+              %a{:href => "/rentalfacility"} Rental Facility
+            %li
+              %a{:href => "/contact"} Contact
+      #main
+        = yield
+      #footer
+        %p.info.left
+          Barn Address: 28380 Highway 74, Menifee, CA 92585
+          %br/
+          Office Address: 445 South D. Street, Perris, CA 92570
+          %br/
+          Email: info@mottemuseum.com
+          %br/
+          Museum Phone: <a href="tel:+19519283210">(951) 928-3210</a>
+          %br/
+          Events Phone: <a href="tel:+19518216210">(951) 821-6210</a>
+          %br/
+          Fax: (951) 657-2406
+        .social.right
+          %span Follow us on
+          %a.notext.twitter{:href => "http://twitter.com/mottemuseum"} Twitter
+          %a.notext.facebook{:href => "http://www.facebook.com/pages/Motte-Historical-Museum-Inc/175280105865811"} Facebook
+        .cl  
+        %p.copyright Copyright © 2012. All Rights Reserved

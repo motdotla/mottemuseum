@@ -1,0 +1,29 @@
+#pay
+  %h4 Motte Historical Museum
+  %h2 Simple Payment System
+  %form{:action => "pay", :method => "post", :id => "pay_form"}
+    %label{:for => "amount"}
+      Insert amount (eg 10.65)
+    %input{:name => "amount", :id => "amount", :type => "text"}
+    
+    / we are validating this server-side, it would not hurt to do it in JS client-side
+    %script{:src => "https://js.stripe.com/v0/"}
+    :javascript
+      Stripe.configure({
+        pubKey: "#{PUBLIC_STRIPE_API_KEY}"
+      })
+    
+    %hr 
+    %p Optional
+    
+    %label{:for => "description"}
+      Description (of services)
+    %input{:name => "description", :id => "description", :type => "text"}
+    
+    %label{:for => "email"}
+      Email (for receipt)
+    %input{:name => "email", :id => "email", :type => "text"}
+    
+    %hr
+
+    %button{:type => "submit"} Charge

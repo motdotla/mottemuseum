@@ -1,0 +1,4 @@
+h2. Setup
+
+* bundle
+* bundle exec padrino start

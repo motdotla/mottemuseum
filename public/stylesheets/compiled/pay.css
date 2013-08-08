@@ -1,0 +1,14 @@
+#pay form#pay_form label {
+  display: block;
+  font-size: 22px;
+  margin-top: 14px; }
+#pay form#pay_form input[type='text'] {
+  padding: 5px;
+  font-size: 18px;
+  width: 220px; }
+#pay form#pay_form select {
+  font-size: 22px; }
+#pay form#pay_form button {
+  margin-top: 10px;
+  font-size: 22px;
+  width: 120px; }

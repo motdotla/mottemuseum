@@ -1,0 +1,7 @@
+--- 
+:script: jquery
+:test: rspec
+:renderer: haml
+:mock: none
+:orm: none
+:stylesheet: sass

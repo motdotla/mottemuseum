@@ -1,0 +1,12 @@
+!!!
+%html{:lang => "en", "xml:lang" => "en", :xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:name => "viewport", :content => "width=320,user-scalable=false"}
+    %title Pay Motte Historical Museum
+    = stylesheet_link_tag "/stylesheets/compiled/pay.css"
+    = yield_content :head
+
+    
+  %body
+    = yield
+    = yield_content :bottom

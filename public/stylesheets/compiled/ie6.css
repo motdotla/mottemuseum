@@ -1,0 +1,7 @@
+#slider a, #slider2 a, #slider3 a {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/slider-inactive.png', sizingMethod='image'); }
+
+#slider a.active, #slider2 a.active, #slider3 a.active {
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/slider-active.png', sizingMethod='image'); }
