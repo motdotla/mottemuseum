@@ -3,3 +3,4 @@
 Procfile
 .bundle
 .env*
+_site
