@@ -311,6 +311,11 @@ textarea {
     padding-bottom: 21px;
     word-spacing: 2px; }
 
+#visit {
+  width: 580px;
+  margin-left: 59px;
+}
+
 .morephotos {
   display: block;
   width: 260px;
