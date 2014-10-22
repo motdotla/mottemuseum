@@ -1,6 +1,5 @@
 .DS_Store
 .sass-cache
-Procfile
 .bundle
 .env*
 _site
