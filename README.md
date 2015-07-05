@@ -4,3 +4,4 @@
 
 * bundle
 * bundle exec padrino start
+* bundle exec guard

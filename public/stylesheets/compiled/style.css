@@ -96,7 +96,7 @@ textarea {
       font-weight: bold;
       text-transform: uppercase; }
       #navigation li a:hover {
-        color: black; }
+        color: #000; }
 
 #main .slider-wrap {
   width: 922px;
@@ -221,11 +221,6 @@ textarea {
   line-height: 27px;
   margin-bottom: 20px; }
 
-.biggishtitle {
-  font-size: 24px;
-  line-height: 24px;
-  margin-bottom: 16px; }
-
 .sort-of-center {
   padding: 0 0 27px 210px; }
 
@@ -267,11 +262,11 @@ textarea {
   height: 40px;
   line-height: 40px;
   text-align: center;
-  color: white; }
+  color: #fff; }
 
 .history span {
   margin-left: 11px;
-  background: #666666; }
+  background: #666; }
 
 .classic span {
   margin-left: 10px;
@@ -311,16 +306,11 @@ textarea {
     padding-bottom: 21px;
     word-spacing: 2px; }
 
-#visit {
-  width: 580px;
-  margin-left: 59px;
-}
-
 .morephotos {
   display: block;
   width: 260px;
   height: 46px;
-  color: white;
+  color: #fff;
   background: url("/images/morephotos.png") no-repeat;
   text-align: center;
   padding: 17px 0 0 0;
@@ -332,7 +322,7 @@ textarea {
   display: block;
   width: 288px;
   height: 46px;
-  color: white;
+  color: #fff;
   background: url("/images/btn-medium.png") no-repeat;
   text-align: center;
   padding: 19px 0 0 0px;
@@ -344,7 +334,7 @@ textarea {
   display: block;
   width: 560px;
   height: 46px;
-  color: white;
+  color: #fff;
   background: url("/images/btn-large.png") no-repeat;
   text-align: center;
   padding: 19px 0 0 0px;
@@ -362,11 +352,11 @@ textarea {
   overflow: hidden; }
   #footer p {
     line-height: 20px;
-    color: #999999; }
+    color: #999; }
   #footer .social {
     margin: 2px 21px 0 0; }
     #footer .social span {
-      color: #666666;
+      color: #666;
       float: left;
       padding-top: 19px; }
     #footer .social .twitter {
@@ -383,7 +373,7 @@ textarea {
   #footer p.copyright {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-    color: #999999;
+    color: #999;
     text-align: right;
     padding: 23px 21px 0 0;
     letter-spacing: 1px; }
@@ -392,3 +382,20 @@ textarea {
   margin: 15px 0 15px 0; }
 #contact .map {
   width: 96%; }
+
+.carcollection-table {
+  border-collapse: collapse; }
+  .carcollection-table tr {
+    border-collapse: collapse; }
+  .carcollection-table td {
+    border-collapse: collapse;
+    width: 152px;
+    padding: 4px; }
+    .carcollection-table td a {
+      display: block;
+      border: 2px solid #E0DAC6;
+      background: #FFFFFF; }
+      .carcollection-table td a:hover {
+        border-color: blue; }
+    .carcollection-table td img {
+      width: 100%; }
