@@ -38,6 +38,10 @@ class Mottemuseum < Padrino::Application
     render :carcollection
   end
 
+  get "/carcollection/:slug" do
+    render :"carcollection/#{params[:slug]}"
+  end
+
   get "/rentalfacility" do
     render :rentalfacility
   end
