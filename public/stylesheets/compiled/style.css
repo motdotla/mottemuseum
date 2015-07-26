@@ -70,6 +70,10 @@ textarea {
     height: 151px;
     background: url("/images/logo.png") no-repeat; }
 
+#visit {
+  padding-left: 10px;
+  width: 600px; }
+
 #donate {
   position: absolute;
   top: 15px;
@@ -281,7 +285,7 @@ textarea {
   background: #224160; }
 
 .photos {
-  margin: 58px 0 16px 8px; }
+  margin: 0px 0 16px 8px; }
 
 .thumb {
   width: 247px;

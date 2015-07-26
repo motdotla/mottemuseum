@@ -1,7 +1,7 @@
 !!!
 %html{:dir => "ltr", :lang => "en-US", :xmlns => "http://www.w3.org/1999/xhtml"}
   %head
-    %title Motte Historical Museum
+    %title= "Motte Historical Museum#{@title ? " | #{@title}" : ""}"
     %meta{:content => "text/html; charset=utf-8", "http-equiv" => "Content-type"}/
     %link{:href => "/images/favicon.ico", :rel => "shortcut icon"}/
     %link{:href => "/stylesheets/compiled/style.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
