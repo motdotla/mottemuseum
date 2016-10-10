@@ -1,4 +1,5 @@
-ruby '2.1.2'
+#ruby '2.1.2'
+ruby '2.2.5'
 source "https://rubygems.org"
 
 gem 'dotenv'
@@ -16,7 +17,6 @@ gem 'iconv'
 
 group :development do
   gem 'foreman'
-  gem 'growl_notify'
   gem 'guard'
   gem 'guard-coffeescript'
   gem 'guard-sass'
