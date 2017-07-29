@@ -1,5 +1,3 @@
-#ruby '2.1.2'
-ruby '2.2.5'
 source "https://rubygems.org"
 
 gem 'dotenv'
