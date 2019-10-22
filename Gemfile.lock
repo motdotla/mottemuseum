@@ -15,7 +15,7 @@ GEM
     diff-lcs (1.2.5)
     dotenv (2.1.1)
     execjs (2.7.0)
-    ffi (1.9.14)
+    ffi (1.11.1)
     foreman (0.82.0)
       thor (~> 0.19.1)
     formatador (0.2.5)
