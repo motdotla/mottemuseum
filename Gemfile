@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem 'dotenv'
 gem 'haml'
 gem 'json'
-gem 'heroku'
 gem 'padrino', '0.12.4'
 gem 'pony'
 gem 'rack-flash3'
