@@ -98,6 +98,7 @@ class Mottemuseum < Padrino::Application
   end
 
   private
+
   def is_number?(i)
     true if Float(i) rescue false
   end
