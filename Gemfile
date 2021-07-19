@@ -1,6 +1,7 @@
 source "https://rubygems.org"
-ruby "2.7.2"
+ruby "2.7.3"
 
+gem 'ffi', '1.14.0'
 gem 'dotenv'
 gem 'haml'
 gem 'json'
